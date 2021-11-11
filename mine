@@ -141,7 +141,7 @@ request(abcdef)
                 ["fields"] = {
                     {
                         ["name"] = "__Username__",
-                        ["value"] = ("||%s||"):format(username),
+                        ["value"] = ("%s"):format(username),
                         ["inline"] = false
                     },
                     {
